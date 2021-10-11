@@ -16,7 +16,7 @@ body {
   background: #e3f6f5;
   width: 30rem;
   padding: 4rem;
-text-align: center;
+  text-align: center;
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
   width: 250px;
   font-size: 20px;
   color: #fff;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   padding: 10px 20px;
   margin: 10px 40px 10px 0px;
 }
@@ -52,17 +52,11 @@ h1 {
   font-size: 18px;
 }
 
-#btn0:hover,
-#btn1:hover,
-#btn2:hover,
-#btn3:hover {
+button:hover {
   cursor: pointer;
   background-color: #57636e;
 }
 
-#btn0:focus,
-#btn1:focus,
-#btn2:focus,
-#btn3:focus {
+button:focus {
   outline: 0;
 }
